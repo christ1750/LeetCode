@@ -11,6 +11,7 @@ public class Gas_station {
 			if(gas[j] < cost[j]){
 				continue;
 			}
+			Integer.
 			now = gas[j]-cost[j];
 			j = (i+1)%gas.length;
 			while(j != i){
